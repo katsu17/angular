@@ -10,6 +10,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HomeComponent } from './home/home.component';
 import { PostComponent } from './post/post.component';
 import { RouterModule, Routes } from '@angular/router';
+import { Home2Component } from './home2/home2.component';
 
 
 
@@ -19,6 +20,7 @@ import { RouterModule, Routes } from '@angular/router';
     MainNavComponent,
     HomeComponent,
     PostComponent,
+    Home2Component,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +35,7 @@ import { RouterModule, Routes } from '@angular/router';
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
       {path: 'post', component: PostComponent},
+      {path: '2', component: Home2Component},
     ])
   ],
   providers: [],

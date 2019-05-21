@@ -1,0 +1,418 @@
+<div class="wrapper">
+
+    <div class="container">
+      <div class="userInfo">
+        <h4>ユーザー情報</h4>
+        <div>
+          <span>前回承認者ID3759:</span>
+          <span>前回承認者名:</span>
+        </div>
+      </div>
+    </div>
+  
+    <div class="flexSpaceBetween">
+      <div class="checkSection">
+        <div class="container">
+          <div class="displayFlex itemTitle">
+            <div>お名前</div>
+            <div class="borderBottom flexSpaceBetween titleAndJudgementSpace">
+              <span>agadh zdhzdh</span>
+              <div class="judgment">
+                <span>承認済み</span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+  
+          
+  <!-- 
+          <div class="checkLists" *ngFor="let checkList of checkLists">
+              <div class="checkList">
+                <input class="radioInput" type="radio" id="radio1">
+                <label class="form-check-parts" for="radio1">{{checkList.checkList1}} </label>
+              </div>
+              <div class="checkList">
+                <input class="radioInput" type="radio" id="radio2">
+                <label class="form-check-parts" for="radio2">{{checkList.checkList2}}</label>
+              </div>
+              <div class="checkList">
+                <input class="radioInput" type="radio" id="radio3">
+                <label class="form-check-parts" for="radio3">{{checkList.checkList3}}</label>
+              </div>
+              <div class="checkList">
+                <input class="radioInput" type="radio" id="radio4">
+                <label class="form-check-parts" for="radio4">{{checkList.checkList4}}</label>
+              </div>
+              <div class="checkList">
+                <input class="radioInput" type="radio" id="radio5">
+                <label class="form-check-parts" for="radio5"><textarea></textarea></label>
+              </div>
+            </div> -->
+  
+          <div class="checkLists">
+            <div class="checkList">
+              <input class="radioInput" type="radio" id="radio1">
+              <label class="form-check-parts" for="radio1">名前記入ミス</label>
+            </div>
+            <div class="checkList">
+              <input class="radioInput" type="radio" id="radio2">
+              <label class="form-check-parts" for="radio2">苗字名前が逆</label>
+            </div>
+            <div class="checkList">
+              <input class="radioInput" type="radio" id="radio3">
+              <label class="form-check-parts" for="radio3">身分証と同じように表記ください</label>
+            </div>
+            <div class="checkList">
+              <input class="radioInput" type="radio" id="radio4">
+              <label class="form-check-parts" for="radio4">first name last name の順で記入ください</label>
+            </div>
+            <div class="checkList">
+              <input class="radioInput" type="radio" id="radio5">
+              <label class="form-check-parts" for="radio5"><textarea></textarea></label>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="displayFlex itemTitle">
+            <div>国籍</div>
+            <div class="borderBottom flexSpaceBetween titleAndJudgementSpace">
+              <span>ASM</span>
+              <div class="judgment">
+                <span>承認済み</span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+  
+          <div class="checkLists">
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>国籍が合ってない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>身分証にて国籍照合出来ない場合</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>記入有効期限が間違っている</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効期限00/00/0000</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効期限が足りない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <textarea></textarea>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="displayFlex itemTitle">
+            <div>Email</div>
+            <div class="borderBottom flexSpaceBetween titleAndJudgementSpace">
+              <span>test@test.com</span>
+              <div class="judgment">
+                <span>承認済み</span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+  
+        <div class="container">
+          <div class="displayFlex itemTitle">
+            <div>生年月日</div>
+            <div class="borderBottom flexSpaceBetween titleAndJudgementSpace">
+              <span>2-3-1979</span>
+              <div class="judgment">
+                <span>承認済み</span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+  
+          <div class="checkLists">
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>生年月日一致してない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>身分証にて生年月日の照合が出来ない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効な身分証でないので、生年月日の照合が出来ない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <textarea></textarea>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="displayFlex itemTitle">
+            <div>電話番号</div>
+            <div class="borderBottom flexSpaceBetween titleAndJudgementSpace">
+              <span>61_AU 7907807</span>
+              <div class="judgment">
+                <span>承認済み</span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="displayFlex itemTitle">
+            <div>パスポート</div>
+            <div class="borderBottom flexSpaceBetween titleAndJudgementSpace">
+              <span>番号：34637357</span>
+              <div class="judgment">
+                <span>承認済み</span>
+                <span></span>
+              </div>
+            </div>
+          </div>
+  
+          <div class="checkLists">
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>身分証にて国籍照合出来ない場合</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>記入有効期限が間違っている</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効期限00/00/0000</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効期間が足りない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <textarea></textarea>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="flexSpaceBetween titleAndJudgementSpace">
+            <div>写真1</div>
+            <div class="judgment">
+              <span>承認済み</span>
+              <span></span>
+            </div>
+          </div>
+  
+          <div class="checkLists">
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>画像がブレて読み取れない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>表紙画像じゃない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>原本画像ではない</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効な身分証でない</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>英語の身分証、または英語とフランス語が一緒になっている身分証以外のものは不可</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>身分証の顔写真画像を載せてください</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>指で身分証の情報が隠れてしまっている</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <textarea></textarea>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="flexSpaceBetween titleAndJudgementSpace">
+            <div>写真2</div>
+            <div class="judgment">
+              <span>承認済み</span>
+              <span></span>
+            </div>
+          </div>
+  
+          <div class="checkLists">
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>画像がブレて読み取れない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>光反射でデーターが読み取れない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>ミラー反転になってる</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>コピーデーターの為NG</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効期限が3ヶ月以上でない（パスポート）</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効期限が3ヶ月以上でない（身分証）</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>パスポートの顔写真ページを載せてください</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>指でパスポート情報が隠れてしまっている</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効身分証明ではない</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>英語の身分証、または英語とフランス語が一緒になっている身分証以外のものは不可</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>指で身分証明情報が隠れてしまっている</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>身分証の裏面画像を載せてください</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <textarea></textarea>
+            </div>
+          </div>
+        </div>
+  
+        <div class="container">
+          <div class="flexSpaceBetween titleAndJudgementSpace">
+            <div>写真3</div>
+            <div class="judgment">
+              <span>承認済み</span>
+              <span></span>
+            </div>
+          </div>
+  
+          <div class="checkLists">
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>顔認識が難しい（身分証と同一人物認証不可）</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>光反射でデーターが読み取れない</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>画像が見切れて本人確認ができない</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>パスポートまたは身分証で顔の一部が隠れて、本人確認ができない</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>顔写真ページを載せてください</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>有効期限が3ヶ月以上でない（身分証）</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>パスポートの顔写真ページを載せてください</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>顔写真ページを載せてください</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>指で身分証情報が隠れてしまっている</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>身分証の画像がブレてる（本人はクリア）</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>メガネが反射しているため</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>パスポートまたは身分証と「BXA」メモを持って、写真を撮ってください</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>メモに正しい日付「画像をアップロードする日」を書いてください</span>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <span>光反射で目が隠れているため、メガネを取って取り直して下さい</span>
+            </div>
+            <div class="checkList">
+              <input class="form-check-input" type="checkbox" name="checks[0][0][checked]" value="1">
+              <textarea></textarea>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+  
+      <div>
+        <div class="container">
+          <div class="itemTitle">
+            <div class="">
+              <!-- <img class="checkImage" src="../../assets/9332c513ef44b682e9347822c2e457acd195f595d6387add436d3370881c983buUwO94kloCX8QRHyw0jaSBWe6Vj2MkgcyxcEDQt2.jpg" alt=""> -->
+              <img id="image" class="checkImage" src="../../assets/9332c513ef44b682e9347822c2e457acd195f595d6387add436d3370881c983buUwO94kloCX8QRHyw0jaSBWe6Vj2MkgcyxcEDQt2.jpg"
+                alt="">
+            </div>
+            <div class="flexSpaceAround">
+              <button onclick="image1()" mat-raised-button>写真1</button>
+              <button onclick="image2()" mat-raised-button>写真2</button>
+              <button onclick="image3()" mat-raised-button>写真3</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container textAlignCenter">
+      <a href="" mat-raised-button color="primary">確認画面へ進む</a>
+    </div>
+  
+  </div>
